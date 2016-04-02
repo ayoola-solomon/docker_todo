@@ -1,0 +1,18 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ayoola Solomon Olayinka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "hiredis": "^0.2.0",
+    "mocha": "^2.2.1",
+    "redis": "^0.12.1",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}
