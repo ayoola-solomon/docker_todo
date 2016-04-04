@@ -34,7 +34,7 @@
 var express  = require('express');
 var app      = express();
 var http = require('http');
-var redis = require('redis');
+// var redis = require('redis');
 var mongoose = require('mongoose');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
@@ -61,8 +61,8 @@ app.get('/*', function(req, res) {
   res.sendFile(__dirname + './public/index.html');
 });
 
-http.createServer(app).listen(process.env.PORT || 8080, function() {
-  console.log('Listening on port ' + (process.env.PORT || 8080));
+http.createServer(app).listen(process.env.PORT || 3000, "127.0.0.1" function() {
+  console.log('Listening on port ' + (process.env.PORT || 3000));
 });
 
 // (function() {
