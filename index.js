@@ -61,7 +61,7 @@ app.get('*', function(req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
 
-http.createServer(app).listen(process.env.PORT || 3000, "127.0.0.1", function() {
+http.createServer(app).listen(process.env.PORT || 3000, "172.31.23.196", function() {
   console.log('Listening on port ' + (process.env.PORT || 3000));
 });
 
